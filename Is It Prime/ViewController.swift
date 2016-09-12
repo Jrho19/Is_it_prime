@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var prime: UITextField!
+    
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    @IBAction func numButton(_ sender: AnyObject) {
+        
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
